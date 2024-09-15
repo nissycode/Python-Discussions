@@ -1,6 +1,6 @@
 num = int(input("Enter a number: "))
 
-# check if the number is positive or neegative
+# check if the number is positive or negative
 
 '''if num > 0:
     print("It is a positive number")
