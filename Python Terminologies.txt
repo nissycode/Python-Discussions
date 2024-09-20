@@ -1,0 +1,3 @@
+PYTHON
+  > High-level interpreted programming language (user friendly)
+  > readability and simplicity
