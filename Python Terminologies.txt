@@ -1,3 +1,31 @@
 PYTHON
   > High-level interpreted programming language (user friendly)
   > readability and simplicity
+  > created by Guido Van Rossum, first released in 1991
+  > widely used for web development, data analysis, automation, AI and more.
+
+HISTORY OF PYTHON
+ > Python is an object oriented interpreted programming language with dynamic semantics
+ > OBJECT ORIENTED - real world object that can be transposed in a program, multiple characteristics and attributes
+  - lahat ng functionality, pwedeng i-code
+  - na-apply yung characteristics in physical world
+ > It is suitable for RAPID APPLICATION DEVELOPMENT as well as forusage as a scripting or give language to link already existing compponents because
+   of its high-level built-in data structures, dynamic typing, and dynamic binding
+ > Python's basic ENGLISH LIKE SYNTAX places a strong focus on readability and has an easy learning curve. This also lowers the cost of program maintenance
+   for users.
+ > Python's SUPPORT FOR MODULES AND PACKAGES promotes the modularity and reuse of codes in program
+ > The COMPREHENSIVE-STANDARD LIBRARY and the python interpreter are freely distributable and offered in source or binary form for all commonly
+   and platforms. CSL - prebuild codes, syntax, functionalities, COLLECTION OF CODES
+
+1.) GENESIS (LATE 1980s)
+ > the goal is to create programming language that is readable. Allowing the creation of small and large
+
+2.) PYTHON 0.9.0 (FEBRUARY 1991)
+ > First official release
+ > With features, EXCEPTION HANDLING, FUNCTIONS, MODULES
+- EXCEPTION HANDLING -  try to get the text from this field, may possibility na mag-error ang nangnyayari, pag nag-error, mahahabang line of code error yung lalabas. Para mag-lessen, may catch natinatawag. Nilalabas yung error lang. Catching the error to lessen the line of code error.
+
+3.) PYTHON 1.0 (JANUARY 1994)
+ > nagkaroon sa functionality, nag-add ng sntax, other integrations, MAP, FILTER, LAMBDA
+
+
