@@ -19,10 +19,10 @@ def fareDiscount(dependents):
         if dependents == 0:
             discount = 0
             break
-        elif 1 <= dependents <=2:
+        elif 1 <= dependents <= 2:
             discount = 0.10
             break
-        elif 3<= dependents <=4:
+        elif 3 <= dependents <= 4:
             discount = 0.20
             break
         else:
