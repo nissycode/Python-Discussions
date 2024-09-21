@@ -23,5 +23,5 @@ for i in range(passenger):
     dependents = int(input("Number of dependents: "))
     
     totalFare = fareDiscount(dependents, fare)
-    print(f"Total fare for passenger {i+1}: {totalFare}")
+    print(f"Total fare for passenger {i+1}: {totalFare :.2f}")
 
