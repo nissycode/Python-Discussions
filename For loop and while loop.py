@@ -1,5 +1,17 @@
+#Activity combination of For and While loop
+#Fare Discount
 
-def fareDiscount(fare, dependents):
+#0 dependent=no discount
+#1-2 = 10%
+#3-4 = 20%
+#5 pataas = 30%
+
+#Age
+#adult(18-59) full fare
+#senior(60+) 20% discount
+#children(<18) 50% discount
+
+def fareDiscount(dependents):
 
     discount = 0
     
@@ -7,7 +19,7 @@ def fareDiscount(fare, dependents):
         if dependents == 0:
             discount = 0
             break
-        elif 1<= dependents <=2:
+        elif 1 <= dependents <=2:
             discount = 0.10
             break
         elif 3<= dependents <=4:
@@ -17,18 +29,11 @@ def fareDiscount(fare, dependents):
             discount = 0.30
             break
             
-    totalFare = fare - (fare * discount)
-    return totalFare
+    return discount
     
-    
-passengerCount = int(input("How many passenger:" ))
-fare = float(input("Full fare:" ))
-    
-for i in range(passengerCount):
-    print(f"\nPassenger {i + 1}:" )
-    
-    age = int(input("Enter your age:" ))
-    dependents = int(input("Number of Dependents:" ))
+def ageDiscount(age):
+
+    discount = 0
     
     while True:
         if age < 18:
@@ -40,12 +45,20 @@ for i in range(passengerCount):
         else:
             discount = 0
             break
+    return discount
+        
+passengerCount = int(input("How many passenger:" ))
+fare = float(input("Full fare:" ))
     
-    totalDiscount = fare * discount
-    totalFare = fareDiscount(fare, dependents)
-    toPay = totalFare - totalDiscount
+
+
+for i in range(passengerCount):      
+    print(f"\nPassenger {i + 1}:" )
     
-    print(f"Total Payment: {totalFare: .2f}")
-    print(f"Total Discount: {totalDiscount: .2f}")
-    print(f"To Pay: {toPay: .2f}")
+    age = int(input("Enter your age:" ))
+    dependents = int(input("Number of Dependents:" ))
+    
+    totalDiscount  =(fareDiscount(dependents) + ageDiscount(age))
+    totalPayment = fare - (fare * totalDiscount)
+    print(f"Total Payment: {totalPayment: .2f}")
     
