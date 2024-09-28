@@ -21,3 +21,11 @@ while num <= 100:
         sum += num
         
 print(sum)        
+
+print("**********************************")
+num = int(input("Enter a number")
+
+while num <= 0:
+    print("Error")
+    num = int(input("Enter: ")
+    
