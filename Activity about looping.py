@@ -28,4 +28,8 @@ num = int(input("Enter a number")
 while num <= 0:
     print("Error")
     num = int(input("Enter: ")
+
+while num >= 1:
+    print(num)
+    num -=1
     
