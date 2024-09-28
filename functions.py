@@ -47,21 +47,39 @@ def triangle(base, height):
   return (base * height) / 2
 
 def rectangle(length, width):
-  return height * width
+  return length * width
 
-def circle():
-
+def circle(radius):
+  return math.pi * radius ** 2
+  
 def main():
   base = 100
   height = 20
-  triangle(base, height)
-  print("Area of Triangle is: " + triangle)
+  tri = triangle(base, height)
+  print("Area of Triangle is: ", tri)
 
   length = 100
   width = 200
-  print("Area of Rectangle is: " + rectangle)
+  rect = rectangle(length,width)
+  print("Area of Rectangle is: ", rect)
+
+  radius = 7
+  circ = circle(radius)
+  print("Area of circle is: ", circ)
   
 main()
+
+#******************************************************
+
+#functions with if else
+
+
+
+
+
+
+
+
 
 
 
