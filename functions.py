@@ -101,8 +101,16 @@ apply functions
     
 
 
+'''
+compute bmi
+need kg
+height is in meters
+input is in user''
 
-
+main is required
+if else
+formula
+nakahiwalay
 
 
 
