@@ -72,7 +72,33 @@ main()
 #******************************************************
 
 #functions with if else
+'''
+age < = 18 = kids
+age > 18 = adult
 
+
+'''
+
+def compare_age(age):
+    
+    if age <= 18:
+        return "kids"
+    elif 18 < age < 30:
+        return "YOUNG ADULT"
+    else:
+        return "adult"
+
+def main():
+    age = int(input("Enter your age: "))
+    callAge = compare_age(age)
+    print(callAge)
+    
+main()
+
+
+
+apply functions
+    
 
 
 
